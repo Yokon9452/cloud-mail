@@ -1,3 +1,4 @@
+
 name = "cloud-malil"
 main = "src/index.js"
 compatibility_date = "2025-06-04"
@@ -7,7 +8,7 @@ keep_vars = true
 enabled = true
 
 [[d1_databases]]
-binding = "DB"  # 修改这里：从 "db" 改为 "DB"
+binding = "db"
 database_name = "email"
 database_id = "4432b111-421d-4434-92f8-209b2ed6e92b"
 
@@ -60,4 +61,3 @@ new_sqlite_classes = ["MailHub"]
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
-# trigger cloudflare rebuild
