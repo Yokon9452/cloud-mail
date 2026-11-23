@@ -61,3 +61,4 @@ new_sqlite_classes = ["MailHub"]
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
+# trigger cloudflare rebuild
